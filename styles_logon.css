@@ -54,7 +54,7 @@ body, html {
     display: flex;
     align-items: center;
     justify-content: center;
-    min-width: 70vh;
+    min-width: 20vh;
 }
 form {
     margin: 30px auto;
