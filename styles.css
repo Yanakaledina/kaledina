@@ -345,15 +345,15 @@ body, html {
          right: 0;
          transition: all 0.3s ease 0s;
      }
-     /* нижня полосочка */
+     /* нижня смужка */
      .icon-menu::after {
         bottom: -4px;
      }
-     /* верхня поосочка */
+     /* верхня смужка */
      .icon-menu::before {
         top: 0;
      }
-     /* середня полосочка */
+     /* середня смужка */
      .icon-menu span {
          top: calc(50%-6px);
          transition: all 0.3s ease 0s;
@@ -681,7 +681,7 @@ body, html {
      /* margin: 0px 0px 0px 200px; */
     } 
     .slick-dots li button::before {
-     font-size: 100px;
+     font-size: 100px; */
      background-color: #000;
      border-radius: 50px;
      border: 3px solid white;
@@ -700,11 +700,11 @@ body, html {
     .slick-slider{
         min-width: 0;
     }
-    /* Ограничивающая оболочка */
+    /* Обмежуюча оболонка */
     .slick-list {
         overflow: hidden;
     }
-    /* Лента слайдов */
+    /* Стрічка слайдів */
     .slick-track{
         display: flex;
         align-items: flex-start;
